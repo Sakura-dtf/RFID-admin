@@ -1,0 +1,56 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\lenovo\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  D:\study\RFID\backend\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;D:\server\xshell\;C:\Program Files\Java\jdk-10.0.1\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\Git\cmd;C:\Program Files\MongoDB\Server\4.2\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Pandoc\;C:\Program Files\dotnet\;C:\Python27;C:\Program Files\nodejs\;C:\Users\lenovo\.windows-build-tools\python27\;C:\Users\lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\lenovo\AppData\Local\Programs\Microsoft VS Code\bin;D:\IntelliJ IDEA Community Edition 2020.1.1\bin;;D:\IntelliJ IDEA 2020.1.2\bin;;C:\Users\lenovo\.dotnet\tools;D:\WebStorm 2020.2.2\bin;C:\Users\lenovo\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  14.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\lenovo\AppData\Local\Yarn\Cache\v6\npm-kind-of-5.1.0-729c91e2d857b7a419a1f9aa65685c4c33f5845d-integrity\node_modules\kind-of\index.js' -> 'D:\study\RFID\backend\node_modules\define-property\node_modules\kind-of\index.js'
+
+npm manifest: 
+  {
+    "name": "backend",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "start": "node bin/www",
+      "dev": "./node_modules/.bin/nodemon bin/www",
+      "prd": "pm2 start bin/www",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+      "debug": "^4.1.1",
+      "jsonwebtoken": "^8.5.1",
+      "koa": "^2.7.0",
+      "koa-bodyparser": "^4.2.1",
+      "koa-convert": "^1.2.0",
+      "koa-json": "^2.0.2",
+      "koa-jwt": "^4.0.0",
+      "koa-logger": "^3.2.0",
+      "koa-onerror": "^4.1.0",
+      "koa-router": "^7.4.0",
+      "koa-static": "^5.0.0",
+      "koa-views": "^6.2.0",
+      "mysql2": "^2.2.5",
+      "pug": "^2.0.3",
+      "sequelize": "^6.3.5"
+    },
+    "devDependencies": {
+      "nodemon": "^1.19.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
